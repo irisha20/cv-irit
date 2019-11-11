@@ -165,3 +165,25 @@ a:hover {
   margin-bottom: 0;
   padding-bottom: 0;
 }
+@media (max-width: 1028px) {
+
+  /* #title {
+    text-align: center;
+  } */
+  .intro {
+    width: 100%;
+  
+  }
+
+  .skill-row {
+    width: 90%;
+    margin: 50px auto 100px auto;
+    text-align: left;
+  }
+
+
+  /* .title-image {
+    position: static;
+    transform: rotate(0);
+  } */
+}
