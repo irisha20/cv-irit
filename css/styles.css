@@ -8,7 +8,7 @@ body {
 h1 {
   color: #66BFBF;
   font-size: 5.625rem;
-  margin: 50px auto 0 auto;
+  margin: 15px auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
@@ -18,7 +18,7 @@ h2 {
   font-size: 2.5rem;
   font-weight: normal;
   padding-bottom: 10px;
-  margin-top: 2.5rem;
+  margin-top: 1rem;
 }
 
 h3 {
@@ -36,7 +36,7 @@ p {
 hr {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
-  width: 4%;
+  width: 6%;
   margin: 30px auto;
 }
 
@@ -50,10 +50,7 @@ a{
 li{
 padding-bottom: 1.5rem;
 }
-/*
-li:last-child {
-  padding-bottom:0;
-} */
+
 
 
 
@@ -74,7 +71,7 @@ a:hover {
 }
 
 .middle-container {
-  margin: 30px 0;
+  margin: 20px 0;
 }
 
 .bottom-container {
@@ -107,26 +104,8 @@ a:hover {
   font-size: 0.75rem;
   padding: 20px 0;
 }
-/*
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 40px;
-} */
 
 
-
-.code-img {
-  /* width: 25%; */
-  float: left;
-  margin-right: 30px;
-}
-
-/* .chilli-img {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-} */
 
 .btn {
   background: #11cdd4;
@@ -169,6 +148,8 @@ a:hover {
 }
 .container{
   margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
 }
 @media (max-width: 1028px) {
 
@@ -178,7 +159,7 @@ a:hover {
   .intro {
     width: 90%;
   margin: auto;
-  
+
   }
 
   .skill-row {
