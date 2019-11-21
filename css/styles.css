@@ -47,6 +47,7 @@ a{
   text-decoration: none;
 }
 
+
 li{
 padding-bottom: 1.5rem;
 }
@@ -58,6 +59,15 @@ a:hover {
   color: #EAF6F6;
 }
 
+
+.about-me-link{
+margin: 0 0 0 0;
+
+}
+
+a.about-me-link:hover{
+  color:#11cdd4;
+}
 .col-2{
   font-weight: bold;
 }
@@ -97,7 +107,7 @@ a:hover {
 .contact-message {
   width: 40%;
   margin: 40px auto 60px;
-  
+
 }
 
 .copyright {
@@ -106,7 +116,9 @@ a:hover {
   padding: 20px 0;
 }
 
-
+.credit{
+  font-size: 0.6rem;
+}
 
 .btn {
   background: #11cdd4;
@@ -152,6 +164,23 @@ a:hover {
   padding-bottom: 0;
   border-bottom: 0;
 }
+
+.top-container{
+  padding-top: 0;
+}
+.bg-info{
+  background-color: #2bc4ad!important
+}
+.navbar{
+  height:50px;
+}
+.about-me{
+  width: 80%;
+padding: 10px 10px 50px 50px;
+text-align:center;
+margin: auto;
+
+}
 @media (max-width: 1028px) {
 
   /* #title {
@@ -162,6 +191,7 @@ a:hover {
   margin: auto;
 
   }
+
 
   .skill-row {
     width: 90%;
