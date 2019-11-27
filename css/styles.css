@@ -68,6 +68,8 @@ margin: 0 0 0 0;
 a.about-me-link:hover{
   color:#11cdd4;
 }
+
+
 .col-2{
   font-weight: bold;
 }
@@ -213,4 +215,16 @@ margin: auto;
   }
 
 
+}
+
+* {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+*:before,
+*:after {
+  -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
 }
