@@ -182,11 +182,12 @@ margin: auto;
 
 }
 .nav-link{
-  text-align: left;
+  text-align: right;
   padding: 0 0;
   border: 0 0;
   margin: 0 0;
 }
+
 @media (max-width: 1028px) {
 
   /* #title {
