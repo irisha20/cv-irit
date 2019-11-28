@@ -46,7 +46,10 @@ a{
   margin: 10px 20px;
   text-decoration: none;
 }
-
+a.navbar-brand{
+  margin: 8px 20px 10px 5px;
+  padding-left: 5px;
+}
 
 li{
 padding-bottom: 1.5rem;
@@ -64,11 +67,17 @@ a:hover {
 margin: 0 0 0 0;
 
 }
+.navbar-toggler-icon{
+  margin-bottom: 12px;
+}
 
 a.about-me-link:hover{
   color:#11cdd4;
 }
 
+.navbar-brand{
+  padding-top: 0;
+}
 
 .col-2{
   font-weight: bold;
