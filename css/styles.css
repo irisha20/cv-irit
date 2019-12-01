@@ -106,9 +106,7 @@ a.about-me-link:hover{
   text-align: left;
 }
 
-.pro {
-  text-decoration: underline;
-}
+
 
 .intro {
   width: 60%;
@@ -232,10 +230,9 @@ margin: auto;
 
 
   .skill-row {
-    width: 90%;
+    width: 80%;
     margin: auto;
-    /* margin: 50px auto 100px auto; */
-    text-align: left;
+
   }
 
 }
